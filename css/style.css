@@ -1,0 +1,110 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+header h2 {
+  font-weight: bold;
+}
+
+header a {
+  color: #fff;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+#carouselExample {
+  max-height: 550px;
+  overflow: hidden;
+}
+
+#carouselExample .carousel-item img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(13,110,253,0.7);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #084298;
+}
+
+.btn-outline-primary {
+  border-color: #0d6efd;
+  color: #0d6efd;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+section .col-md-4 img {
+  border-radius: 8px;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+/* Ofertas */
+section .col-md-4 div {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+section .col-md-4 h4 {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+section .col-md-4 p {
+  color: #6c757d;
+}
